@@ -8,7 +8,7 @@ archive: false
 
     <article class="post">
         <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
+            <a id="blog-logo" href="/blog/assets/images/logo.png">
                 {% if site.logo %}
                     <img src="/{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
@@ -38,7 +38,10 @@ archive: false
         	<h5>Archive</h5>
     		<ul>
     			{% for post in site.posts %}
-    				<li><span>{{ post.date | date_to_string }}</span>  <a href="/blog{ post.url }}">{{ post.title }}</a></li>
+    				<li>
+                        <span>{{ post.date | date_to_string }}</span>
+                        <a href="/blog{ post.url }}">{{ post.title }}</a>
+                    </li>
     			{% endfor %}
     		</ul>
         </section>
