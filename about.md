@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bejoo
+title: Blog
 ---
 
-Bejoo
+Joris' Blog
