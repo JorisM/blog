@@ -8,5 +8,5 @@ logo: ""
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'http://jorism.github.io/blog'
+url:            'http://jorism.github.io/blog/'
 author:         'Joris Morger (@jorisdamian)'
