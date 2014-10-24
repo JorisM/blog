@@ -1,0 +1,12 @@
+name: Bejoo
+description: Joris Morger, Nicolas Gagliani
+meta_description: "Bejoo and programming"
+
+markdown: redcarpet
+pygments: true
+logo: "assets/images/bejoo.svg"
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'http://blog.bejoo.com'
+author:         'Joris Morger, Nicolas Gagliani'
